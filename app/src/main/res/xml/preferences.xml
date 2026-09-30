@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Connection Settings">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="auto_connect"
+            android:summary="Auto-connect to last server on app launch"
+            android:title="Auto Connect" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="show_notifications"
+            android:summary="Show connection status notifications"
+            android:title="Notifications" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Security">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="encrypt_passwords"
+            android:summary="Encrypt passwords in database"
+            android:title="Encrypt Passwords" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="About">
+        <Preference
+            android:key="version"
+            android:summary="Version 1.0.0"
+            android:title="App Version" />
+
+        <Preference
+            android:key="developer"
+            android:summary="Ali Sepahvan"
+            android:title="Developer" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SSH Tunnel Manager</string>
+    <string name="title_home">Servers</string>
+    <string name="title_add">Add Server</string>
+    <string name="title_edit">Edit Server</string>
+
+    <!-- Home Screen -->
+    <string name="btn_add_server">Add Server</string>
+    <string name="label_no_servers">No servers configured</string>
+    <string name="desc_no_servers">Tap the + button to add your first SSH server</string>
+    <string name="btn_connect">Connect</string>
+    <string name="btn_disconnect">Disconnect</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_delete">Delete</string>
+    <string name="status_connected">Connected</string>
+    <string name="status_disconnected">Disconnected</string>
+    <string name="status_connecting">Connecting...</string>
+
+    <!-- Add/Edit Server -->
+    <string name="label_server_name">Server Name *</string>
+    <string name="hint_server_name">e.g., My VPS</string>
+    <string name="label_host">Host/IP *</string>
+    <string name="hint_host">example.com or 192.168.1.1</string>
+    <string name="label_port">Port</string>
+    <string name="hint_port">22</string>
+    <string name="label_username">Username *</string>
+    <string name="hint_username">root or user</string>
+    <string name="label_password">Password *</string>
+    <string name="label_private_key">Private Key *</string>
+    <string name="hint_private_key">Paste your private key content</string>
+    <string name="label_auth_method">Authentication Method</string>
+    <string name="radio_password">Password</string>
+    <string name="radio_private_key">Private Key</string>
+    <string name="label_local_port">Local Port</string>
+    <string name="label_remote_host">Remote Host</string>
+    <string name="label_remote_port">Remote Port</string>
+    <string name="label_port_forwarding">Port Forwarding</string>
+    <string name="btn_save">Save Server</string>
+    <string name="btn_update">Update Server</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="error_empty_field">This field cannot be empty</string>
+    <string name="success_saved">Server saved successfully</string>
+    <string name="success_deleted">Server deleted successfully</string>
+    <string name="error_connection_failed">Connection failed</string>
+    <string name="error_invalid_input">Invalid input</string>
+
+    <!-- Notifications -->
+    <string name="notification_title">SSH Tunnel Manager</string>
+    <string name="notification_connecting">Connecting to %1$s...</string>
+    <string name="notification_connected">Connected to %1$s</string>
+    <string name="notification_disconnected">Disconnected from %1$s</string>
+    <string name="notification_error">Connection error: %1$s</string>
+</resources>
